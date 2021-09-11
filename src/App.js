@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import ReactProps from './components/props/ReactProps'
+import ReactState from './components/state/ReactState'
+// import ReactProps from './components/props/ReactProps'
 // import ReactLifecycle from './components/react-lifecyle/ReactLifecycle'
 
  class App extends Component {
@@ -9,7 +10,8 @@ import ReactProps from './components/props/ReactProps'
     return (
       <div>
        {/* <ReactLifecycle></ReactLifecycle> */}
-       <ReactProps></ReactProps>
+       {/* <ReactProps></ReactProps> */}
+       <ReactState></ReactState>
       </div>
     )
   }
